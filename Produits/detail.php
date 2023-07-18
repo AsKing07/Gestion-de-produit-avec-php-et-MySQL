@@ -21,6 +21,46 @@ if (isset($_GET['detail'])) {
         <head>
             <meta charset="UTF-8">
             <title>Détails du produit</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                h1 {
+                    text-align: center;
+                    margin-top: 20px;
+                }
+                table {
+                    width: 50%;
+                    margin: 20px auto;
+                    border-collapse: collapse;
+                }
+                th, td {
+                    padding: 10px;
+                    text-align: center;
+                    border: 1px solid #ccc;
+                }
+                th {
+                    background-color: #f2f2f2;
+                }
+                img {
+                    width: 200px;
+                    height: 150px;
+                }
+                button a {
+                    text-decoration: none;
+                    color: white;
+                }
+                button {
+                    background-color: #007bff;
+                    border: none;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+                button:hover {
+                    background-color: #0056b3;
+                }
+            </style>
         </head>
         <body>
             <h1>DÉTAILS DU PRODUIT</h1><br>
@@ -35,7 +75,7 @@ if (isset($_GET['detail'])) {
                 </tr>
                 <tr>
                     <td><strong>Image :</strong></td>
-                    <td><img src="images/<?php echo $produit->image_produit; ?>" width="200" height="150" alt="Image du produit"></td>
+                    <td><img src="images/<?php echo $produit->image_produit; ?>" alt="Photo"></td>
                 </tr>
             </table>
             <br>
