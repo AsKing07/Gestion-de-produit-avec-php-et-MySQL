@@ -9,7 +9,4 @@
 	$resultat = $req->fetchall(PDO::FETCH_OBJ);
 	
 
-
-
-
 ?>
