@@ -2,6 +2,8 @@
 
 Ce dépôt GitHub contient le code source du projet "Gestion de Produit" réalisé avec PHP, HTML et MySQL. Ce projet a pour objectif de fournir une application de gestion de produits avec les opérations CRUD (Create, Read, Update, Delete). L'application utilise une base de données MySQL pour stocker les informations des produits.
 
+Il ne s'agit que d'une mise en place. Des mises à jour doivent etre apportées afin d'améliorer l'interface utilisateur.
+
 ## Structure du projet
 
 L'arborescence du projet est la suivante :
